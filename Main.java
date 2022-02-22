@@ -45,9 +45,9 @@ public class Main {
             out.println(tt);
             double st = stay;
             double sw = swap;
-            out.println("stay count= "+(stay));
+            out.print("Stay: count "+(stay)+"=");
             out.println((st / tt)*100);
-            out.println("swap count "+(swap));
+            out.print("Swap: count "+(swap)+"=");
             out.println((sw / tt)*100);
         }
 
